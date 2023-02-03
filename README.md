@@ -1,10 +1,10 @@
 # mock-data
 mock data with a few properties intended to use as practice of data management
 
-To run the program: "node index.js" and choose the number of objects you wanna make
+To run the program: "node index.js" and choose the number of objects you want to make
 
 
-This is how it looks:
+This is how it looks when you ask for 2:
 
   ```
 [
