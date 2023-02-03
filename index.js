@@ -12,6 +12,7 @@ const fs = require("fs");
 
 function getMockData(n) {
   let index = 0;
+  let arr = [];
   let obj = {}
 
   while (index < n) {
@@ -28,7 +29,7 @@ function getMockData(n) {
       Math.random() * (basicProfilePictures.length - 1)
     );
 
-    obj[index] = {
+    obj = {
       id : index,
       name: name[nameIndex],
       lastName: lastName[lastNameIndex],
@@ -38,18 +39,17 @@ function getMockData(n) {
       hobbie: hobbie[hobbieIndex],
       image: basicProfilePictures[basicProfilePicturesIndex],
     };
+    arr.push(obj)
 
-    fs.writeFileSync(__dirname + "/madeUpPeople.json", JSON.stringify(obj));
+    fs.writeFileSync(__dirname + "/madeUpData.json", JSON.stringify(arr));
     index++;
   }
 }
 function AskForHowMany() {
   let num;
   process.stdout.write(`how many fake people do you need? `);
-  process.stdin.setEncoding('utf-8')
   process.stdin.on("data", (data) => {
     
-    //console.log('data is ',(parseInt(data)))
     
     if (typeof(parseInt(data)) === 'number' && !isNaN(parseInt(data))){
 
