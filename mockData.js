@@ -99,7 +99,7 @@ const age = [
   20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38,
   39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49,
 ];
-const favouriteColor = [
+const favoriteColor = [
   "red",
   "blue",
   "yellow",
@@ -151,22 +151,12 @@ const country = [
 ];
 const basicProfilePictures = ['https://blog.za3k.com/wp-content/uploads/2015/03/default_profile_1_bigger.png','https://blog.za3k.com/wp-content/uploads/2015/03/default_profile_2_bigger.png','https://blog.za3k.com/wp-content/uploads/2015/03/default_profile_3_bigger.png','https://blog.za3k.com/wp-content/uploads/2015/03/default_profile_4_bigger.png','https://blog.za3k.com/wp-content/uploads/2015/03/default_profile_5_bigger.png','https://blog.za3k.com/wp-content/uploads/2015/03/default_profile_6_bigger.png']
 
-// name , lastName, hobbies, age, favouriteColor, country
-// let obj =  {
-//   name: 'Charlotte',
-//   lastName : 'West',
-//   age:21,
-//   favouriteColor: 'red',
-//   country: 'Argentina',
-//   hobbie : [  "Cooking","Cryptography","Diving",]
-
-// }
 
 module.exports = Object.freeze({
   name,
   lastName,
   age,
-  favouriteColor,
+  favoriteColor,
   country,
   hobbie,
   basicProfilePictures
