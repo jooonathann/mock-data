@@ -2,7 +2,7 @@ const {
   name,
   lastName,
   age,
-  favouriteColor,
+  favoriteColor,
   country,
   hobbie,
   basicProfilePictures,
@@ -19,8 +19,8 @@ function getMockData(n) {
     let nameIndex = Math.round(Math.random() * (name.length - 1));
     let lastNameIndex = Math.round(Math.random() * (lastName.length - 1));
     let ageIndex = Math.round(Math.random() * (age.length - 1));
-    let favouriteColorIndex = Math.round(
-      Math.random() * (favouriteColor.length - 1)
+    let favoriteColorIndex = Math.round(
+      Math.random() * (favoriteColor.length - 1)
     );
     let countryIndex = Math.round(Math.random() * (country.length - 1));
     let hobbieIndex = Math.round(Math.random() * (hobbie.length - 1));
@@ -34,7 +34,7 @@ function getMockData(n) {
       name: name[nameIndex],
       lastName: lastName[lastNameIndex],
       age: age[ageIndex],
-      favouriteColor: favouriteColor[favouriteColorIndex],
+      favoriteColor: favoriteColor[favoriteColorIndex],
       country: country[countryIndex],
       hobbie: hobbie[hobbieIndex],
       image: basicProfilePictures[basicProfilePicturesIndex],
