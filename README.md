@@ -13,7 +13,7 @@ This is how it looks when you ask for 2:
     "name": "Benjamin",
     "lastName": "Nguyen",
     "age": 44,
-    "favouriteColor": "Teal",
+    "favoriteColor": "Teal",
     "country": "Spain",
     "hobbie": "Gardening",
     "image": "https://blog.za3k.com/wp-content/uploads/2015/03/default_profile_4_bigger.png"
@@ -23,7 +23,7 @@ This is how it looks when you ask for 2:
     "name": "Camila",
     "lastName": "Scott",
     "age": 27,
-    "favouriteColor": "orange",
+    "favoriteColor": "orange",
     "country": "Mexico",
     "hobbie": "Inventing",
     "image": "https://blog.za3k.com/wp-content/uploads/2015/03/default_profile_3_bigger.png"
@@ -31,4 +31,4 @@ This is how it looks when you ask for 2:
 ]
   ```
   
-  There are 30 different names, lastNames, ages,favouriteColors, hobbies, 15 different countries and 6 different images. All of them form random objects with these properties 
+  There are 30 different names, lastNames, ages,favoriteColors, hobbies, 15 different countries and 6 different images. All of them form random objects with these properties 
